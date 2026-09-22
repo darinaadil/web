@@ -20,7 +20,7 @@
             <button class="btn-pill" type="button">LOG IN</button>
         </header>
 
-        <!-- SIDEBAR (TASK 3) -->
+       
         <aside class="site-sidebar">
             <h3>USER MENU</h3>
             <br>
@@ -28,7 +28,6 @@
             <p><a href="favorites.html" style="color: #ccc;">• Favorites</a></p>
         </aside>
 
-        <!-- MAIN CONTENT (TASK 3) -->
         <main class="container">
             <h1 class="section-title">MY WATCH LATER LIST</h1>
             
@@ -43,13 +42,13 @@
                 <tbody id="movie-table"></tbody>
             </table>
             
-            <!-- AUTHOR SECTION -->
+            
             <section class="author-section">
                 <h2>ABOUT THE DEVELOPER</h2>
                 <p>Hi! I'm Darina Sagiyeva, a Software Engineering student at Astana IT University (Group SE-2506). I developed the Catalog and Watch Later sections for this movie platform.</p>
             </section>
 
-            <!-- CONTACT / SUGGEST FORM -->
+           
             <section class="form-box">
                 <h2>SUGGEST A MOVIE / CONTACT US</h2>
                 <form id="contact-form">
@@ -75,7 +74,6 @@
             </section>
         </main>
 
-        <!-- FOOTER (TASK 3) -->
         <footer class="site-footer">
             <div class="footer-left">
                 <span class="footer-dot"></span>
@@ -85,7 +83,6 @@
         </footer>
     </div>
 
-    <!-- RENDER WATCH LATER LIST FROM LOCALSTORAGE -->
     <script>
     let movies = JSON.parse(localStorage.getItem("watchLater")) || [];
     let table = document.getElementById("movie-table");

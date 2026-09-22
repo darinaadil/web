@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="grid-container">
-        <!-- HEADER (FLEXBOX - TASK 1) -->
+        
         <header class="navbar">
             <div class="logo">MOVIE PROJECT</div>
             <nav class="nav-links">
@@ -23,7 +23,7 @@
             </div>
         </header>
 
-        <!-- SIDEBAR (TASK 3) -->
+       
         <aside class="site-sidebar">
             <h3>FAVORITES MENU</h3>
             <br>
@@ -31,7 +31,7 @@
             <p><a href="watch-later.html" style="color: #ccc;">• Watch Later</a></p>
         </aside>
 
-        <!-- MAIN CONTENT (TASK 3) -->
+        
         <main class="favorites-container">
             <h1 class="section-title">MY FAVORITES</h1>
 
@@ -47,7 +47,6 @@
                 </tbody>
             </table>
 
-            <!-- ABOUT DEVELOPER -->
             <section class="favorites-about">
                 <h2>ABOUT THE DEVELOPER</h2>
                 <p>
@@ -56,7 +55,7 @@
                 </p>
             </section>
 
-            <!-- CONTACT FORM -->
+        
             <section class="favorites-form-box">
                 <h2>SUGGEST A MOVIE / CONTACT US</h2>
                 <form id="contact-form">
@@ -85,7 +84,7 @@
             </section>
         </main>
 
-        <!-- FOOTER (TASK 3) -->
+        
         <footer class="site-footer">
             <div class="footer-left">
                 <span class="footer-dot"></span>
@@ -95,7 +94,7 @@
         </footer>
     </div>
 
-    <!-- RENDER FAVORITES FROM LOCALSTORAGE -->
+   
     <script>
         let movies = JSON.parse(localStorage.getItem("favorites")) || [];
         let table = document.getElementById("favorite-table");

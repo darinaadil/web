@@ -7,9 +7,8 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- GRID CONTAINER (TASK 3) -->
     <div class="grid-container">
-        <!-- HEADER (FLEXBOX - TASK 1) -->
+      
         <header id="main-header">
             <div class="logo">MOVIE PROJECT</div>
             <nav class="nav-menu">
@@ -21,7 +20,7 @@
             <button class="btn-pill" type="button">LOG IN</button>
         </header>
 
-        <!-- SIDEBAR (TASK 3) -->
+      
         <aside class="site-sidebar">
             <h3>GENRES</h3>
             <br>
@@ -32,7 +31,7 @@
             <p><a href="#" style="color: #ccc;">• Fantasy</a></p>
         </aside>
 
-        <!-- MAIN CONTENT (TASK 3) -->
+       
         <main class="container">
             <!-- GENRE TAGS -->
             <section class="genre-tags">
@@ -161,7 +160,7 @@
                 </div>
             </section>
 
-            <!-- GRID IMAGE GALLERY (TASK 4) -->
+            
             <section class="gallery-section">
                 <h2 class="section-title">MOVIE SHOTS GALLERY</h2>
                 <div class="image-gallery">
@@ -204,7 +203,7 @@
                 </div>
             </section>
 
-            <!-- REVIEWS TABLE -->
+          
             <section class="table-section">
                 <h2 class="section-title">ALL AVAILABLE REVIEWS</h2>
                 <table class="data-table">
@@ -276,7 +275,7 @@
             </section> 
         </main>
 
-        <!-- FOOTER (TASK 3) -->
+        
         <footer class="site-footer">
             <div class="footer-left">
                 <span class="footer-dot"></span>
@@ -286,7 +285,7 @@
         </footer>
     </div>
 
-    <!-- SCRIPT FOR LOCAL STORAGE -->
+    
     <script>
     function saveMovie(listName, title, year, genre) {
         let movies = JSON.parse(localStorage.getItem(listName)) || [];
